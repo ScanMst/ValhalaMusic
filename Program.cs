@@ -1,7 +1,11 @@
+using Microsoft.EntityFrameworkCore;
+using Valhalla_Music;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<ApplicationDbContext>(opciones => opciones.UseSqlServer("name=DefaultConnection"));
 
 var app = builder.Build();
 
