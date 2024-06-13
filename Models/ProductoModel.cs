@@ -1,7 +1,9 @@
+
 namespace ValhalaMusic.Models
-{
-    public class ProductoModel
+{ 
+    public class ProductoModel 
     {
+
         
         public int ProductoId { get; set; }
         public string Nombre { get; set; }
