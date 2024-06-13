@@ -11,9 +11,9 @@ namespace ValhalaMusic.Controllers
         _context=context;
      }
 
-     public IActionResult PoductosList()
+     public IActionResult ProductoList()
      {
-        return View();
+      return View();
      }
 
 
