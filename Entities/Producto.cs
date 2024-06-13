@@ -15,7 +15,7 @@ namespace Valhalla_Music.Entities
 
         public int Stock{ get; set;}
 
-        public virtual ICollection<DetalleVenta> DetalleVentas { get; set; }
+        //public virtual ICollection<DetalleVenta> DetalleVentas { get; set; }
 
 
         
