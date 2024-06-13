@@ -1,0 +1,9 @@
+C:\Users\a2017\OneDrive\Escritorio\POO2\ValhalaMusic\obj\Debug\net8.0\Valhalla_Music.csproj.AssemblyReference.cache
+C:\Users\a2017\OneDrive\Escritorio\POO2\ValhalaMusic\obj\Debug\net8.0\Valhalla_Music.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\a2017\OneDrive\Escritorio\POO2\ValhalaMusic\obj\Debug\net8.0\Valhalla_Music.AssemblyInfoInputs.cache
+C:\Users\a2017\OneDrive\Escritorio\POO2\ValhalaMusic\obj\Debug\net8.0\Valhalla_Music.AssemblyInfo.cs
+C:\Users\a2017\OneDrive\Escritorio\POO2\ValhalaMusic\obj\Debug\net8.0\Valhalla_Music.csproj.CoreCompileInputs.cache
+C:\Users\a2017\OneDrive\Escritorio\POO2\ValhalaMusic\obj\Debug\net8.0\Valhalla_Music.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\a2017\OneDrive\Escritorio\POO2\ValhalaMusic\obj\Debug\net8.0\Valhalla_Music.RazorAssemblyInfo.cache
+C:\Users\a2017\OneDrive\Escritorio\POO2\ValhalaMusic\obj\Debug\net8.0\Valhalla_Music.RazorAssemblyInfo.cs
+C:\Users\a2017\OneDrive\Escritorio\POO2\ValhalaMusic\obj\Debug\net8.0\Valhalla_Music.sourcelink.json
