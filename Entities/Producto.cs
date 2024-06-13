@@ -7,15 +7,12 @@ namespace Valhalla_Music.Entities
 {
     public class Producto
     {
-        public Guid Id { get; set;}
+    public int ProductoId { get; set; }
+    public string Nombre { get; set; }
+    public decimal Precio { get; set; }
+    public int Stock { get; set; }
 
-        public string Name { get; set;}
-
-        public decimal Price { get; set;}   
-
-        public int Stock{ get; set;}
-
-        //public virtual ICollection<DetalleVenta> DetalleVentas { get; set; }
+    //public virtual ICollection<DetalleVenta> DetalleVentas { get; set; }
 
 
         
