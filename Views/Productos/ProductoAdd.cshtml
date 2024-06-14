@@ -1,0 +1,26 @@
+@using Valhalla_Music.Entities
+@model Producto
+
+<h1>Alta de Productos</h1>
+
+<form class="form" asp-controler="Productos" asp-action="ProductoAdd">
+
+    <div class="mb-3">
+        <label asp-for="Nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" asp-for="Nombre"  placeholder="Escribe el nombre">
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Precio"  class="form-label">Precio</label>
+        <input type="text" class="form-control" asp-for="Precio"  placeholder="Escribe el Precio">
+       
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Stock"  class="form-label">Producto en Stock</label>
+        <input type="text" class="form-control" asp-for="Stock"  placeholder="Escribe la cantidad en stock">
+       
+    </div>
+
+    <button class="btn btn-primary" asp-controller="Productos" asp-action="ProductoList">Guardar</button>
+</form>

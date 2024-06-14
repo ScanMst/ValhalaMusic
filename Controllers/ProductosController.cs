@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
+using ValhalaMusic.Models;
 using Valhalla_Music;
+using Valhalla_Music.Entities;
 
 namespace ValhalaMusic.Controllers
 {
@@ -13,7 +15,32 @@ namespace ValhalaMusic.Controllers
 
      public IActionResult ProductoList()
      {
-      return View();
+        List<ProductoModel> list = 
+        _context.Productos
+            .Select(p => new ProductoModel()
+                {
+                    ProductoId = p.ProductoId,
+                    Nombre = p.Nombre,
+                    Precio = p.Precio,
+                    Stock=p.Stock,
+                })
+            .ToList();
+
+        return View(list);
+     }
+
+     public IActionResult ProductoAdd()
+     {
+       /* Producto entity = new Producto();
+        entity.ProductoId = new int();
+        entity.Nombre = "Guitarra";
+        entity.Precio = 500;
+        entity.Stock = 10;
+            
+        //Esto es para guardar en la base de datos.
+        _context.Productos.Add(entity);
+        _context.SaveChanges();*/
+        return View();
      }
 
 

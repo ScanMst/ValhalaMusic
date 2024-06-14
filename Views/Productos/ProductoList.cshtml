@@ -1,18 +1,45 @@
 @using ValhalaMusic.Models;
 @model List<ProductoModel>
     
+@{
+    ViewData["Title"] = "Vista Productos";
+    
+}
+<h1>@ViewData["Title"]</h1>
 
 <h1>Productos</h1>
 
-<a class = "btn btn-primary" asp-action="" asp-controller="ProductoControler">Agregar Producto</a>
+<a class = "btn btn-primary" asp-action="ProductoAdd" asp-controller="Productos">Agregar Producto</a>
 
-<table class="table">
+<table class="table table-striped">
     <thead>
         <tr>
-            <th>Nombre</th>
-            <th>Precio</th>
-            <th>Producto</th>
-            <th>Stock</th>
+            <th scope="col">#</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Stock</th>
+           
+            <th scope="col">Acciones</th>
         </tr>
     </thead>
+    <tbody>
+        @foreach(var p in Model)
+        {
+      
+ 
+            <tr>
+                <td>@p.ProductoId</td>
+                <td>@p.Nombre</td>
+                <td>@p.Precio</td>
+                <td>@p.Stock</td>
+             
+                <td>
+                    <a class="btn btn-outline-info" asp-action="ProductEdit" asp-controller="Product" asp-route-id="@p.ProductoId">Editar</a>
+                    <a class="btn btn-outline-danger" asp-action="ProductDeleted" asp-controller="Product" asp-route-id="@p.ProductoId">Borrar</a>
+                </td>
+
+            </tr>  
+        }    
+    </tbody>
+</table>
     
