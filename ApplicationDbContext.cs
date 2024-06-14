@@ -16,7 +16,8 @@ namespace Valhalla_Music
         }
 
         public DbSet<Producto> Productos {get; set;}
-
+        public DbSet<Cliente> Clientes { get; set; }
+        
         
 
 
