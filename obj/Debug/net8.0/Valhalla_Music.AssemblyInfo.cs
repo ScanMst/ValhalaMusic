@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Valhalla_Music")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4c3aba9a7673f15f99c7ade8fa04ff36c3955f27")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5eacbdfdae57ff9c0e6201ebf94be919dfbd183")]
 [assembly: System.Reflection.AssemblyProductAttribute("Valhalla_Music")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Valhalla_Music")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
