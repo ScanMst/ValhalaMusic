@@ -11,6 +11,7 @@ namespace ValhalaMusic.Controllers
      public ProductosController(ApplicationDbContext context)
      {
         _context=context;
+        
      }
 
      public IActionResult ProductoList()
@@ -40,6 +41,11 @@ namespace ValhalaMusic.Controllers
         //Esto es para guardar en la base de datos.
         _context.Productos.Add(entity);
         _context.SaveChanges();*/
+        return View();
+     }
+
+     public IActionResult ProductoSave()
+     {
         return View();
      }
 
